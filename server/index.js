@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 
 });
 
-const CONNECTION_URL = 'mongodb+srv://botros:fkd_service1881@cluster0.7deva.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const CONNECTION_URL = '';
 const PORT = process.env.PORT|| 5000;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
